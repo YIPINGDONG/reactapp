@@ -4,7 +4,7 @@ import SearchBar from './component/search_bar';
 import YTSerch from 'youtube-api-search';
 import VideoList from "./component/video_list";
 
-const API_KEY ='AIzaSyDTdiN_eF4ZInFvp19-DuH-KDUwZMRm8DM';
+const API_KEY ='AIzaSyBmNsWn9E4rQgKRqizqTkdFdoF6zPQoPhY';
 
 class App extends Component{
 	  constructor(props) {
