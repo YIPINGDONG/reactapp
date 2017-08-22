@@ -10,9 +10,9 @@ class App extends Component{
 	  constructor(props) {
     super(props);
 
-      this.setState(videos:[])
+      this.state={videos:[]};
      YTSerch({key: API_KEY,trem:'surfboard'},(videos)=>{ this.setState({videos});
-  
+  this.setState({videos});
 });
     };
      
